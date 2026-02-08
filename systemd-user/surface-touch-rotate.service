@@ -1,0 +1,14 @@
+[Unit]
+Description=Surface touch follows screen rotation
+After=graphical-session.target
+Wants=graphical-session.target
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+ExecStart=__HOME__/.local/bin/surface-touch-rotate.sh
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=default.target
