@@ -20,6 +20,6 @@ This listens for orientation changes from `monitor-sensor --accel` and applies t
 ## Install
 
 ```bash
-git clone https://github.com/YOURNAME/surface-touch-rotate.git
+git clone https://github.com/Preen59/surface-touch-rotate.git
 cd surface-touch-rotate
 ./install.sh
