@@ -21,9 +21,9 @@ This listens for orientation changes from `monitor-sensor --accel` and applies t
 
 ```bash
 git clone https://github.com/Preen59/linux-surface-touch-rotate.git
-cd surface-touch-rotate
+cd linux-surface-touch-rotate
+chmod +x install.sh uninstall.sh
 ./install.sh
-
 ```
 Log out/in or reboot.
 
